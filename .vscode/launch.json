@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "firefox",
+            "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\lunkm\\Senior Fall PBL Website\\index.html"
+            "file": "index.html"
         }
     ]
 }
