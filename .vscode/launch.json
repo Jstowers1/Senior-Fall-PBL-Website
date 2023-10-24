@@ -5,9 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Open in Firefox",
+            "file": "index.html"
+        },
+        {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "Open in Chrome",
             "file": "index.html"
         }
     ]
