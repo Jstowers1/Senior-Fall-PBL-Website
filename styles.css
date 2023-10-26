@@ -124,15 +124,24 @@ section {
 }
 
 .bodyTexts img {
+  position: relative;
   max-width: 100%;
   max-height: auto;
-  width: 50vw; 
+  width: 40vw; 
 }
+
+.alignImg{
+  position: relative;
+  max-width: 600px;
+  max-height: 280px;
+  width: 40%;
+  left: -47%;
+  top: 15%;
+}
+
 
 .rText {
   position: absolute;
-  top: 24vw;
-  left: 60vw;
-  transform: translate(-50%, -50%);
   font-size: 3vw;
+  word-wrap: normal;
 }
