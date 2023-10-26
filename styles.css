@@ -125,13 +125,14 @@ section {
 
 .bodyTexts img {
   max-width: 100%;
-  height: auto;
-  width: auto\9; 
+  max-height: auto;
+  width: 50vw; 
 }
 
 .rText {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 24vw;
+  left: 60vw;
   transform: translate(-50%, -50%);
+  font-size: 3vw;
 }
