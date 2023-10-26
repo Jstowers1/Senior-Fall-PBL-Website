@@ -1,3 +1,29 @@
+body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
+  background-color: #d7bfec;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 10%; display: inline-flexbox;}
+.col-2 {width: 80%; display: inline-flexbox;}
+.col-3 {width: 10%; display: inline-flexbox;}
+
+
 .dropbtn {
   background-color: #222222;
   color: white;
@@ -56,15 +82,10 @@
   color: white;
 }
 
-body{
-  background-color: #d7bfec;
-  margin: 0;
-}
-
 .tile {
     height:400px;
     margin-top:40px;
-    
+
 
     -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
     transform: translateY(50px) translateZ(0);
@@ -98,7 +119,7 @@ section {
   margin-top: 0;
   padding: 0px;
   max-width: 100%;
-  width: auto/9;
+  width: auto;
   flex-basis: 100%;
 }
 
@@ -106,4 +127,11 @@ section {
   max-width: 100%;
   height: auto;
   width: auto\9; 
+}
+
+.rText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
