@@ -129,6 +129,12 @@ section {
   width: auto\9; 
 }
 
+.resizeImg img {
+  max-width: 100%;
+  height: auto;
+  width: auto\12; 
+}
+
 .rText {
   position: absolute;
   top: 50%;
