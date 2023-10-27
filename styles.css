@@ -137,7 +137,7 @@ section {
   max-height: 280px;
   width: 40%;
   right: -44%;
-  top: 15%;
+  top: 14.5%;
 }
 
 .lImg{
@@ -146,7 +146,7 @@ section {
   max-height: 280px;
   width: 40%;
   right: 46%;
-  top: 15%;
+  top: 14.5%;
 }
 
 .overlayText {
@@ -156,6 +156,21 @@ section {
   word-wrap: normal;
 }
 
+.footerLeft { width: 47%; float: left; display: block; }
+.footerRight { width: 47%; float: right; display: block; }
+
+.footer {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
+  z-index: 10;
+  padding: 0;
+  position: absolute;  
+  bottom: -300vw;  
+  right: 0px;   
+  width: 100%;  
+  background-color: #222222;  
+  text-align: center;  
+  color: white;
+}
 
 @media screen and (min-width: 1600px) {
   .overlayText {
