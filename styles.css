@@ -143,6 +143,11 @@ section {
   width: 40%;
   right: -44%;
   top: 14.5%;
+  color: white;
+
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
 }
 
 .lImg{
@@ -152,11 +157,16 @@ section {
   width: 40%;
   right: 46%;
   top: 14.5%;
+  color: white;
+
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
 }
 
 .overlayText {
   z-index: 3;
-  position: absolute;
+  position: relative;
   font-size: 3vw;
   word-wrap: normal;
 }
@@ -226,5 +236,8 @@ section {
 @media screen and (min-width: 1600px) {
   .overlayText {
      font-size: 48px;
+  }
+  .footer {
+    bottom: -200vw;
   }
 }
