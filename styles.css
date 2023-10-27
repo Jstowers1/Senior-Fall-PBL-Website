@@ -1,6 +1,6 @@
 body{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
-  background-color: #d7bfec;
+  background-color: #e9d2fd;
   margin: 0;
 }
 
@@ -96,8 +96,7 @@ body{
     -o-transition: .8s;
     transition: .8s;
     opacity: 0;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
+    
 }
 .bottom-right.inView {
     opacity: 1;
@@ -114,6 +113,7 @@ section {
 }
 
 .bodyTexts {
+  justify-content: right;
   display: flex;
   flex-direction: column;
   margin-top: 0;
@@ -127,21 +127,38 @@ section {
   position: relative;
   max-width: 100%;
   max-height: auto;
-  width: 40vw; 
+  width: 40vw;
+  filter: brightness(1) invert(0);
 }
 
-.alignImg{
+.rImg{
   position: relative;
   max-width: 600px;
   max-height: 280px;
   width: 40%;
-  left: -47%;
+  right: -44%;
   top: 15%;
 }
 
+.lImg{
+  position: relative;
+  max-width: 600px;
+  max-height: 280px;
+  width: 40%;
+  right: 46%;
+  top: 15%;
+}
 
-.rText {
+.overlayText {
+  z-index: 3;
   position: absolute;
   font-size: 3vw;
   word-wrap: normal;
+}
+
+
+@media screen and (min-width: 1600px) {
+  .overlayText {
+     font-size: 48px;
+  }
 }
