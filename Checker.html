@@ -53,14 +53,14 @@
 
 </head>
 <body>
-  <form id="myForm">
-    <input type="text" id="userInput">
-    <button type="submit" id="submit">Submit</button> 
+  <form method="POST" action="/analyze">
+    <textarea name="text" rows="4" cols="50"></textarea>
+    <button type="submit">Analyze Text</button>
   </form>
-
-  <div id="result"></div>
-
-  <script src="detector.js"></script>
+  
+  {% if data %}
+  <pre>{{ data }}</pre>
+  {% endif %}
   
 </body>
 </html>
