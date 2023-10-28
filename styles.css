@@ -136,6 +136,12 @@ section {
   filter: brightness(1) invert(0);
 }
 
+.resizeImg img {
+  max-width: 100%;
+  height: auto;
+  width: auto\12; 
+}
+
 .rImg{
   position: relative;
   max-width: 600px;
